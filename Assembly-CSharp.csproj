@@ -46,7 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Código Fonte\Controller\Tabuleiro.cs" />
      <Compile Include="Assets\Código Fonte\Main.cs" />
+     <Compile Include="Assets\Código Fonte\Model\Dado.cs" />
+     <Compile Include="Assets\Código Fonte\Model\Empresa.cs" />
+     <Compile Include="Assets\Código Fonte\Model\ILogradouro.cs" />
+     <Compile Include="Assets\Código Fonte\Model\Imovel.cs" />
+     <Compile Include="Assets\Código Fonte\Model\Jogador.cs" />
+     <Compile Include="Assets\Código Fonte\Model\Sorte.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
