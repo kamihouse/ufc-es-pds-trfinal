@@ -5,23 +5,41 @@
 	private int preco;
 	private int taxa;
 
+	public Imovel(int indice, int preco){
+		this.indice = indice;
+		this.idJogadorDono = -1;
+		this.preco = preco;
+		double calcTaxa =preco*0.2; 
+		this.taxa = (int)calcTaxa;	}
 
-	public void acao(){
-		
+
+	public void acao(Jogador j){
+	 if (idJogadorDono == -1) {
+						opcaoCompra (j);
+				} else if (idJogadorDono != j.getIdJogador ()) {
+			cobrarTaxa(j);
+				}
+					
 	}
-	
-	
+
 	public int getIndice(){
 		return this.indice;
 	}
+
+	public void opcaoCompra(Jogador j){
+
+		comprar (j, true);
+
+
+		}
+	public void comprar(Jogador j,bool decisao){
+		if (decisao) {
+						this.idJogadorDono = j.getIdJogador ();
+						j.cobrarValor (this.preco);
+				}
+		}
+	public void cobrarTaxa(Jogador j){
+		j.cobrarValor (taxa);
+		}
 	
-	
-	public bool compra(int idJogador){
-		return true;
 	}
-	
-	
-	public int pedagio(int valorDado){
-		return 0;
-	}
-}

@@ -1,22 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Código Fonte/View/DadoGUI.cs">
+    <Files>
+      <File FileName="Assets/Código Fonte/Model/Imovel.cs" Line="44" Column="1" />
+      <File FileName="Assets/Código Fonte/Model/Empresa.cs" Line="45" Column="1" />
+      <File FileName="Assets/Código Fonte/View/DadoGUI.cs" Line="23" Column="47" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Código Fonte" expanded="True">
-              <Node name="Código Fonte" expanded="True">
-                <Node name="Model" expanded="True" />
-                <Node name="Model" expanded="True" />
-              </Node>
-              <Node name="Controller" expanded="True" />
-              <Node name="Model" expanded="True">
-                <Node name="Imovel.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

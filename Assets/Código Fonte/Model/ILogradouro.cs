@@ -9,7 +9,7 @@
 	/// <summary>
 	/// É executado quando o jogador para em uma casa.
 	/// </summary>
-	void acao();
+	void acao(Jogador j1);
 
 
 	/// <summary>

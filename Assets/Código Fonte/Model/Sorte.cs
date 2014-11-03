@@ -1,10 +1,18 @@
-﻿public class Sorte : ILogradouro {
-	
+﻿
+
+public class Sorte : ILogradouro {
+
+
 	private int indice;
+
+	public Sorte(int indice){
+		this.indice = indice;
+	}
+
 	// Criar uma coleção para o atributo OpçõesDeSorte...
 
 	
-	public void acao(){
+	public void acao(Jogador j){
 		
 	}
 	

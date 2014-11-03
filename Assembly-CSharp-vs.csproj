@@ -54,6 +54,7 @@
      <Compile Include="Assets\Código Fonte\Model\Imovel.cs" />
      <Compile Include="Assets\Código Fonte\Model\Jogador.cs" />
      <Compile Include="Assets\Código Fonte\Model\Sorte.cs" />
+     <Compile Include="Assets\Código Fonte\View\DadoGUI.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
