@@ -16,10 +16,10 @@ public class DadoGUI : MonoBehaviour {
 	}
 
 	void OnGUI() {
-		valorDado1 = GUI.TextField(new Rect(770, 250, 120, 20), valorDado1, 25);
-		valorDado2 = GUI.TextField(new Rect(770, 275, 120, 20), valorDado2, 25);
+		valorDado1 = GUI.TextField(new Rect(812, 265, 120, 20), valorDado1, 25);
+		valorDado2 = GUI.TextField(new Rect(812, 295, 120, 20), valorDado2, 25);
 
-		if (GUI.Button(new Rect(790, 305, 80, 30), "Jogar Dado"))
+		if (GUI.Button(new Rect(833, 323, 80, 30), "Jogar Dado"))
 			Debug.Log("Dado 1: "+valorDado1+"; Dado 2: "+valorDado2);
 	}
 }
