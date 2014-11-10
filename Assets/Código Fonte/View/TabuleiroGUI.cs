@@ -80,7 +80,7 @@ public class TabuleiroGUI : MonoBehaviour
 		/// </summary>
 		/// <param name="idJogadorDaVez">Identifier jogador da vez.</param>
 		/// <param name="posicaoJogadorC">Posicao jogador c.</param>
-		public void comprarLogradouro (int idJogadorDaVez, int posicaoJogadorC)
+		public void marcarLogradouro (int idJogadorDaVez, int posicaoJogadorC)
 		{
 				if (idJogadorDaVez == 0) {
 						casaComprada = GameObject.Instantiate (casaPlayerVermelo) as GameObject;

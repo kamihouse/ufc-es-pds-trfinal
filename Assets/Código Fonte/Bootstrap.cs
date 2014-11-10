@@ -240,7 +240,7 @@ public class Bootstrap : MonoBehaviour
 								this.mostrarTelaDeCompra = false;
 								comprarImovel (true);
 
-								this.tabuleiroGUI.comprarLogradouro (this.jogadorAtual.getIdJogador (), this.jogadorAtual.getPosicao ());
+								this.tabuleiroGUI.marcarLogradouro (this.jogadorAtual.getIdJogador (), this.jogadorAtual.getPosicao ());
 
 								alternaJogador ();
 						}
