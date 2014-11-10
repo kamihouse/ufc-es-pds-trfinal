@@ -1,21 +1,12 @@
-﻿interface ILogradouro {
-	/// <summary>
-	/// Posição da casa.
-	/// </summary>
-	//int indice;
-
-
-
-	/// <summary>
-	/// É executado quando o jogador para em uma casa.
-	/// </summary>
-	void acao(Jogador j1);
-
-
-	/// <summary>
-	/// Retorna o índice (posição) do logradouro em que se encontra.
-	/// </summary>
-	/// <returns>O indice.</returns>
-	int getIndice();
-
+/// <summary>
+/// Interface entre o <see cref="Tabuleiro"/> e seus diferentes tipos genéricos de logradouros.
+/// </summary>
+public interface ILogradouro
+{
+		/// <summary>
+		/// É executado quando o jogador entra em um logradouro.
+		/// </summary>
+		/// <param name="jogador">Jogador.</param>
+		/// <param name="outroJogador">Outro jogador.</param>
+		bool acao (Jogador jogador, Jogador outroJogador);
 }
